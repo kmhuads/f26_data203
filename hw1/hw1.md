@@ -3,7 +3,7 @@
 
 | Points <br/>Possible | Due Date | Time Commitment <br/>(estimated) |
 |:---------------:|:--------:|:---------------:|
-| 15 | Sunday, September 27 @ midnight | _up to_ 15 hours |
+| 15 | Wednesday, September 30 @ midnight | _up to_ 15 hours |
 
 
 * **GRADING RUBRIC:** Grading will be aligned with the completeness of the objectives.
