@@ -1,5 +1,12 @@
+```python
 
-# DATA103/203 Foundational Python (Prof. Maull) / Fall 2026 / HW2
+```
+
+\begin{center}
+\begin{huge}
+DATA103/203 Foundational Python (Prof. Maull) / Fall 2026 / HW2
+\end{huge}
+\end{center}
 
 | Points <br/>Possible | Due Date | Time Commitment <br/>(estimated) |
 |:---------------:|:--------:|:---------------:|
@@ -113,7 +120,7 @@ To alert the public of "official" recalls
 the FDA (Food and Drug Admininstration) maintains
 a site with all of the food recalls going
 on and the historical data on prior
-recalls.  Access to this data, is even
+recalls.  Access to this data is even
 available programmatically.
 
 See these links to education yourself
@@ -207,13 +214,13 @@ Your function is formally specified below:
  _function_ **OUTPUT**  : the number of records with that category 
 
 
-**CODE EXAMPLE** 
+**CODE EXAMPLE:** 
 
 ```python
 get_category_count("seafood", fda_2025_food_recalls)
 ```
 
-_Output_:
+_Example Output_:
 ```python
 13
 ```
@@ -260,9 +267,12 @@ Use the test functions in the starter notebook to check your work.
   2. loop through all the records in the input dictionary, 
   3. use your function from **Task 1.0** to assign the 
      count of the category to the key in your 
-     dictionary from 1. 
+     dictionary from **Task 1.0**. 
 
   Just remember, your function will return a dictionary.
+
+
+  **FUNCTION SPECIFICATION** 
 
 
   _function_ **NAME**: `category_summary(ds)`
@@ -275,13 +285,13 @@ Use the test functions in the starter notebook to check your work.
 
   - the dictionary containing the number of recall records in each category
 
-  **CODE EXAMPLE** 
+  **CODE EXAMPLE:** 
 
   ```python
   category_summary(fda_2025_food_recalls)
   ```
 
-  _Output_:
+  _Example Output_:
 
   ```python
     {
@@ -314,7 +324,7 @@ keys to determine the duration.
 You will need to use 
 [Python `datetime` objects](https://docs.python.org/3/library/datetime.html) 
 to do so.  Study it, you can easily convert the date strings 
-in the date keys and do time/date math operations very easily.
+in the date keys and even do time/date math operations very easily.
 
 Please see the guidance in the starter notebook.
 
@@ -335,22 +345,22 @@ _function_ **OUTPUT**
 get_average_recall_duration(fda_2025_food_recalls)
 ```
 
-_Output_:
+_Example Output_:
 ```python
 365
 ```
 
 Like before, you can use Python built-ins (e.g. `sum()`, `map()`, etc.) 
 if you find them useful.  You 
-**cannot**, however use other libraries or modules.
+**cannot**, however, use other libraries or modules.
 
 
-**&#167; Task:**  **1.3 Write a function which aggregates all items by category and returns the dictionary.**
+**&#167; Task:**  **1.3 Write a function which aggregates all items by category and returns the dictionary of recall items.**
 
 
 Your function will effectively reshape the original data such that you
 build up a dictionary with the keys being the categories in `category_list`
-and the values of each key being a list of the recalls in the category. remember
+and the values of each key being a list of the recalls in the category. Remember, 
 you will use the full dictionary object in your category list.
 
 Here is an example of the output dictionary:
@@ -403,7 +413,7 @@ _function_ **OUTPUT**
 reshape_data(fda_2025_food_recalls)
 ```
 
-_Output_:
+_Example Output_:
 ```python
 365
 ```
@@ -455,7 +465,8 @@ of the provided notebook and answer the question below:
    for details of the function.  
 
 2. Write DocStrings documentation for the function.  Use the style provided 
-   by the Google coding standards link already provided.
+   by the Google coding standards link already provided. **Include 
+   your mystery function explanation in the DocString documentation.**
 
 
 **&#167; Task:**  **2.1 Write a function which uses the output of `mystery_function()`.**
@@ -531,9 +542,10 @@ You can earn _up to_ several BONUS points _per_ task.
 To do this, you will need to look at the `reason_for_recall` key in 
 the recall dictionary record.
 
-You can use a variety of mechanism to search for the substring.  
+You can use a variety of mechanisms to search for the substring.  
 
-A robust solution will use the [`regex`](https://docs.python.org/3/howto/regex.html) object, but points **will**
+A robust solution will use the Python Standard Library 
+[`regex`](https://docs.python.org/3/howto/regex.html) object, but points **will**
 be awarded for solutions which do not use that.
 
 Name your function `find_recalls()` and it will take a two parameters
@@ -541,18 +553,19 @@ a String parameter _s_ and the original recall dictionary _ds_ that
 we have already been using for the bulk of the assignment.  The return
 data will be a List of dictionaries -- the recall records that match.
 
-Show that your function works by providing tests of it.  For example,
+Show that your function works by providing tests for it.  For example,
+this test will return the recall records for [Cesium-137](https://semspub.epa.gov/work/HQ/176309.pdf).
 
 ```python
 find_recalls('Cesium-137', fda_2025_food_recalls)
 ```
 
 
-**&#167; Task:**  **B.2 If you completed B.2 show the code that answers the following questions.**
+**&#167; Task:**  **B.2 If you completed B.1 show the code that answers the following questions.**
 
 To get points, use your function from **B.1** and show the code
 which answers the questions.  You may also need to use prior functions
-or write your own new one's for some questions:
+or write your own  for some of the questions:
 
 1. Which months and days were _clostridium botulinum_ recalls **initiated**?
 2. How many recalls involved undeclared ingredients? 
@@ -564,8 +577,9 @@ or write your own new one's for some questions:
 Now we will take the `distribution_pattern` key
 and count up the frequency of recalls by states.
 
-Don't overthink it -- there are a few clever 
-and not complex ways to solve this problem. 
+Don't overthink it -- there are a few clever,
+but straightforward 
+and uncomplicated ways to solve this problem. 
 
 
 - You can earn partial points -- show as much of
@@ -592,10 +606,10 @@ Your return dictionary will look like:
 **&#167; Task:**  **B.4 If you completed B.3 show the code that answers the following questions.**
 
 
-1. Which state has the most recalls?
+1. Which state has the most recalls in 2025?
 2. How many states have fewer than 5 recalls in 2025?
 3. How many states have more than 18 recalls in 2025?
-4. Look at the state with the most recalls.  Explore the recall data
+4. Look at the state with **the most recalls**.  Explore the recall data
    and provide any insights about patterns you see in
    those recalls (if any). 
 
