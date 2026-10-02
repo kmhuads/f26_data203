@@ -1,12 +1,5 @@
-```python
+# DATA103/203 Foundational Python (Prof. Maull) / Fall 2026 / HW2
 
-```
-
-\begin{center}
-\begin{huge}
-DATA103/203 Foundational Python (Prof. Maull) / Fall 2026 / HW2
-\end{huge}
-\end{center}
 
 | Points <br/>Possible | Due Date | Time Commitment <br/>(estimated) |
 |:---------------:|:--------:|:---------------:|
