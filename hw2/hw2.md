@@ -54,7 +54,7 @@ if you clone the HW Github repository from your Jupyter Hub
 terminal with the command:
 
 ```bash
-  git pull https://github.com/kmhuads/s26_data203.git
+  git pull https://github.com/kmhuads/f26_data203.git
 ``` 
 
 This will ensure you have the most updated files and starter 
@@ -408,7 +408,29 @@ reshape_data(fda_2025_food_recalls)
 
 _Example Output_:
 ```python
-365
+{
+   'dairy': 
+    [
+      {
+      'product_description': ...,
+      'category': ...,
+      'status': ...,
+      ...
+      },
+      ...
+    ]
+   'produce': 
+    [
+      {
+      'product_description': ...,
+      'category': ...,
+      'status': ...,
+      ...
+      },
+      ...
+    ]
+    ...
+}
 ```
 
 You might find some of the code from your
