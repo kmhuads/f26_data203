@@ -1,16 +1,9 @@
-```python
+# DATA203 Foundational Python (Prof. Maull) / Fall 2026 / HW4
 
-```
-
-\begin{center}
-\begin{huge}
-DATA203 Foundational Python (Prof. Maull) / Fall 2026 / HW4
-\end{huge}
-\end{center}
 
 | Points <br/>Possible | Due Date | Time Commitment <br/>(estimated) |
 |:---------------:|:--------:|:---------------:|
-| 20 | Tuesday, Nov 16 @ midnight | _up to_ 8 hours |
+| 20 | Tuesday, Nov 17 @ midnight | _up to_ 8 hours |
 
 
 * **GRADING RUBRIC:** Grading will be aligned with the completeness of the objectives.
