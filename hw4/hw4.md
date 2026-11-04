@@ -1,6 +1,5 @@
 # DATA203 Foundational Python (Prof. Maull) / Fall 2026 / HW4
 
-
 | Points <br/>Possible | Due Date | Time Commitment <br/>(estimated) |
 |:---------------:|:--------:|:---------------:|
 | 20 | Tuesday, Nov 17 @ midnight | _up to_ 8 hours |
@@ -233,11 +232,11 @@ Knowing the population per square mile allows
 us to derive whether a census tract is urban, rural or something
 in between or in the extremes. 
 
-Use the provided function in the starter notebook `compute_tract_density()`
-and use the Pandas [`DataFrame.apply()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.apply.html#pandas.DataFrame.apply)
-function to obtain the designated
-density of the tract.
-
+Follow instructions in the starter notebook to complete the provided
+function in the starter notebook `compute_tract_density()` and use the
+Pandas
+[`DataFrame.apply()`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.apply.html#pandas.DataFrame.apply)
+function to obtain the designated density of the tract.
 
 Store the newly assigned computation in a column
 called `DENSITY_TYPE`.
@@ -312,9 +311,9 @@ We are going to do both.
   * You must use direct evidence from your findings to support your answer.
 
 
-**&#167; Task:**  **2.2 &#8594; Produce  scatter plots showing the `RPL_THEME` vs `EP_MINRTY` for urban and rural density types for each state.**
+**&#167; Task:**  **2.2 &#8594; Produce  scatter plots showing the `RPL_THEMES` vs `EP_MINRTY` for urban and rural density types for each state.**
 
-* Use `DataFrame.plot.scatter()` where the $x$-axis is the `RPL_THEME` and $y$-axis is the `EP_MINRTY`.
+* Use `DataFrame.plot.scatter()` where the $x$-axis is the `RPL_THEMES` and $y$-axis is the `EP_MINRTY`.
 * You will have 8 graphs, two for each state (one urban, one suburban).
 * You may combine the urban and suburban into one graph as long as they are
   properly colored (one must be a different color than the other).
