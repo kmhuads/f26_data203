@@ -1,6 +1,6 @@
 # HW5A: ChocoDB Feature Analysis Repository 
 
-This repository contains assigmnet files for HW5A analyzing the Flavors of Cacao dataset using Pandas. The primary tasks are an extension of HW3 to transform raw CSVs into structured binary feature matrices suitable for machine learning or clustering tasks, helping you master exploratory data analysis techniques.
+This repository contains assigment files for HW5A analyzing the Flavors of Cacao dataset using Pandas. The primary tasks are an extension of [HW3](../hw3) to transform raw CSVs into structured binary feature matrices suitable for machine learning or clustering tasks, helping you master exploratory data analysis techniques.
 
 ## Key Tasks
 
