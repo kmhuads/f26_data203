@@ -98,7 +98,7 @@ this homework.
 
 
 ## ASSIGNMENT TASKS
-### (25%) Connecting census tracts with other data. 
+### (100%) Connecting census tracts with other data. 
 
 
 In HW4 we generated a nice clean and enriched dataset that had a large
