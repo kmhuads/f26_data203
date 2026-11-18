@@ -10,7 +10,7 @@ DATA203 Foundational Python (Prof. Maull) / Fall 2026 / HW5A
 
 | Points <br/>Possible | Due Date | Time Commitment <br/>(estimated) |
 |:---------------:|:--------:|:---------------:|
-| 15 | Wednesday, Dec 3 @ midnight | _up to_ 8 hours |
+| 15 | Wednesday, Dec 2 @ midnight | _up to_ 8 hours |
 
 
 * **GRADING RUBRIC:** Grading will be aligned with the completeness of the objectives.
